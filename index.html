@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de la Investigación</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="logo">Investigación</div>
+
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link active" data-target="inicio">Inicio</a></li>
+                <li><a href="#experimentales" class="nav-link" data-target="experimentales">Experimentales</a></li>
+                <li><a href="#noexperimentales" class="nav-link" data-target="noexperimentales">No Experimentales</a></li>
+                <li><a href="#cualitativos" class="nav-link" data-target="cualitativos">Cualitativos</a></li>
+                <li><a href="#mixtos" class="nav-link" data-target="mixtos">Mixtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ================= MAIN ================= -->
+    <main>
+
+        <!-- ====================================== -->
+        <!-- INICIO -->
+        <!-- ====================================== -->
+
+        <section class="page active-page" id="inicio">
+
+            <div class="hero-grid">
+
+                <div class="hero-content">
+                    <span class="eyebrow">Metodología Científica</span>
+
+                    <h1>
+                        DISEÑO DE LA
+                        <em>INVESTIGACIÓN</em>
+                    </h1>
+
+                    <p>
+                        Dentro de los diseños de investigación existen aproximaciones
+                        cualitativas, cuantitativas y mixtas útiles para trabajos
+                        científicos. Partiendo del problema de investigación,
+                        se deben definir las variables, la población, el tiempo,
+                        el espacio y el enfoque metodológico que guiará todo el estudio.
+                    </p>
+
+                    <p>
+                        Este enfoque permite seleccionar el diseño más adecuado
+                        para responder las preguntas planteadas y alcanzar los
+                        objetivos de investigación.
+                    </p>
+                </div>
+
+                <div class="image-wrapper">
+                    <img src="imagen1.jpg" alt="Diseño de investigación">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ====================================== -->
+        <!-- EXPERIMENTALES -->
+        <!-- ====================================== -->
+
+        <section class="page" id="experimentales">
+
+            <div class="section-header">
+                <span class="eyebrow">Cuantitativos</span>
+                <h2>Diseños Cuantitativos: <em>Experimentales</em></h2>
+
+                <p>
+                    Permiten establecer relaciones de causa y efecto mediante
+                    el control y manipulación intencionada de variables independientes.
+                </p>
+            </div>
+
+            <ul class="editorial-list">
+                <li>Grupo de control y grupo experimental.</li>
+                <li>Asignación aleatoria.</li>
+                <li>Medición del efecto en la variable dependiente.</li>
+                <li>Control de variables externas (validez interna).</li>
+            </ul>
+
+            <!-- Accordion 1 -->
+            <article class="accordion">
+                <button class="accordion-header">
+                    Diseños Pre-experimentales
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+
+                    <div class="content-grid">
+
+                        <div>
+                            <p>
+                                No poseen asignación aleatoria ni grupo de control riguroso.
+                                Presentan una validez interna limitada.
+                            </p>
+
+                            <p>
+                                Ejemplo: evaluar el conocimiento de estudiantes
+                                después de una única clase expositiva.
+                            </p>
+
+                            <ul>
+                                <li>Estudio de caso con una sola medición.</li>
+                                <li>Diseño de un solo grupo con pre y posprueba.</li>
+                                <li>Comparación con grupo estático.</li>
+                            </ul>
+                        </div>
+
+                        <img src="imagen2.jpg" alt="">
+                    </div>
+
+                </div>
+            </article>
+
+            <!-- Accordion 2 -->
+            <article class="accordion">
+                <button class="accordion-header">
+                    Diseños Cuasi-experimentales
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+
+                    <div class="content-grid reverse">
+
+                        <img src="imagen3.jpg" alt="">
+
+                        <div>
+                            <p>
+                                Utilizan grupos previamente formados sin control total
+                                sobre la asignación de participantes.
+                            </p>
+
+                            <ul>
+                                <li>Grupo de control no equivalente.</li>
+                                <li>Series temporales interrumpidas.</li>
+                                <li>Diseños de cohortes.</li>
+                                <li>Diseños de casos únicos.</li>
+                            </ul>
+
+                            <p>
+                                Son útiles en contextos naturales donde la aleatorización
+                                resulta poco viable.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </article>
+
+            <!-- Accordion 3 -->
+            <article class="accordion">
+                <button class="accordion-header">
+                    Diseños Experimentales Puros o Verdaderos
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+
+                    <div class="content-grid">
+
+                        <div>
+                            <p>
+                                Manipulación deliberada de variables independientes
+                                bajo estricto control metodológico.
+                            </p>
+
+                            <ul>
+                                <li>Introducción de tratamiento.</li>
+                                <li>Asignación aleatoria.</li>
+                                <li>Grupo control y experimental.</li>
+                                <li>Minimización de variables extrañas.</li>
+                            </ul>
+
+                            <p>
+                                Ejemplo: comparar un medicamento frente a un placebo
+                                para evaluar cambios en la presión arterial.
+                            </p>
+                        </div>
+
+                        <img src="imagen4.jpg" alt="">
+                    </div>
+
+                </div>
+            </article>
+
+        </section>
+
+        <!-- ====================================== -->
+        <!-- NO EXPERIMENTALES -->
+        <!-- ====================================== -->
+
+        <section class="page" id="noexperimentales">
+
+            <div class="section-header">
+                <h2>Diseños Cuantitativos: <em>No Experimentales</em></h2>
+
+                <p>
+                    No existe manipulación de variables ni asignación aleatoria.
+                    Los fenómenos son observados en su contexto natural.
+                </p>
+            </div>
+
+            <article class="accordion">
+                <button class="accordion-header">
+                    Diseños Transeccionales
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+                    <div class="content-grid">
+
+                        <div>
+                            <p>
+                                Recolección de datos en un único momento temporal.
+                            </p>
+
+                            <ul>
+                                <li>Exploratorios.</li>
+                                <li>Descriptivos.</li>
+                                <li>Correlacionales.</li>
+                            </ul>
+                        </div>
+
+                        <img src="imagen5.jpg" alt="">
+                    </div>
+                </div>
+            </article>
+
+            <article class="accordion">
+                <button class="accordion-header">
+                    Diseños Longitudinales
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+                    <p>
+                        Analizan datos en distintos momentos del tiempo para estudiar
+                        tendencias, cambios y evolución de poblaciones.
+                    </p>
+
+                    <ul>
+                        <li>Diseños de tendencia.</li>
+                        <li>Evolución de grupo.</li>
+                        <li>Diseños panel.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="accordion">
+                <button class="accordion-header">
+                    Diseños Retrospectivos y Prospectivos
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+                    <p>
+                        Los retrospectivos analizan registros históricos.
+                        Los prospectivos realizan seguimiento a los participantes
+                        conforme los eventos ocurren.
+                    </p>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- ====================================== -->
+        <!-- CUALITATIVOS -->
+        <!-- ====================================== -->
+
+        <section class="page" id="cualitativos">
+
+            <div class="section-header">
+                <h2>Diseños <em>Cualitativos</em></h2>
+
+                <p>
+                    Comprenden fenómenos humanos desde la perspectiva de los participantes.
+                </p>
+            </div>
+
+            <article class="accordion">
+                <button class="accordion-header">
+                    Teoría Fundamentada
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+                    <div class="content-grid">
+                        <div>
+                            Generación de teorías a partir de datos recopilados y
+                            analizados sistemáticamente mediante procesos de codificación.
+                        </div>
+                        <img src="imagen6.jpg" alt="">
+                    </div>
+                </div>
+            </article>
+
+            <article class="accordion">
+                <button class="accordion-header">
+                    Etnográficos
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+                    <div class="content-grid reverse">
+                        <img src="imagen7.jpg" alt="">
+                        <p>
+                            Estudio profundo de culturas y comunidades mediante
+                            observación participante e inmersión prolongada.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="accordion">
+                <button class="accordion-header">
+                    Narrativos
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+                    <p>
+                        Analizan relatos de vida y experiencias personales.
+                    </p>
+                </div>
+            </article>
+
+            <article class="accordion">
+                <button class="accordion-header">
+                    Investigación-Acción
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+                    <p>
+                        Busca resolver problemas prácticos mediante ciclos continuos
+                        de planificación, acción, observación y reflexión.
+                    </p>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- ====================================== -->
+        <!-- MIXTOS -->
+        <!-- ====================================== -->
+
+        <section class="page" id="mixtos">
+
+            <div class="section-header">
+                <h2>Diseños <em>Mixtos</em></h2>
+
+                <p>
+                    Combinan el rigor cuantitativo con la riqueza interpretativa
+                    del enfoque cualitativo.
+                </p>
+            </div>
+
+            <article class="accordion">
+                <button class="accordion-header">
+                    Secuencial Explicativo (CUAN → CUAL)
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+                    Datos cuantitativos primero y posteriormente datos cualitativos
+                    para explicar los resultados obtenidos.
+                </div>
+            </article>
+
+            <article class="accordion">
+                <button class="accordion-header">
+                    Secuencial Exploratorio (CUAL → CUAN)
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+                    Exploración cualitativa inicial seguida de validación cuantitativa.
+                </div>
+            </article>
+
+            <article class="accordion">
+                <button class="accordion-header">
+                    Diseños Concurrentes
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+
+                    <div class="content-grid">
+
+                        <div>
+                            Ambos enfoques se desarrollan simultáneamente para
+                            enriquecer la interpretación de los resultados.
+                        </div>
+
+                        <img src="imagen8.jpg" alt="Diseño concurrente">
+                    </div>
+
+                </div>
+            </article>
+
+            <article class="accordion">
+                <button class="accordion-header">
+                    Diseños Anidados
+                    <span>+</span>
+                </button>
+
+                <div class="accordion-content">
+                    Un componente metodológico queda encapsulado dentro de otro.
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-content">
+            <h3>Diseño de la Investigación</h3>
+            <p>
+                Comprender el diseño metodológico adecuado permite desarrollar
+                investigaciones rigurosas, válidas y útiles para la generación
+                de conocimiento científico.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
